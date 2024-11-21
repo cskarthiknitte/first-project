@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("VideoPlayerOzWWWGlobalConfig",["VideoPlayerShakaGlobalConfig"],(function(a,b,c,d,e,f,g){"use strict";var h="oz_www_";a={getBool:function(a,b){return d("VideoPlayerShakaGlobalConfig").getBool(h+a,b)},getNumber:function(a,b){return d("VideoPlayerShakaGlobalConfig").getNumber(h+a,b)},getString:function(a,b){return d("VideoPlayerShakaGlobalConfig").getString(h+a,b)}};b=a;g["default"]=b}),98);

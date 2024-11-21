@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("VideoPlayerShakaGlobalConfig",["VideoPlayerContextSensitiveConfigResolver"],(function(a,b,c,d,e,f,g){var h=new(c("VideoPlayerContextSensitiveConfigResolver"))(),i={};a=function(a){i=a};b=function(a,b){if(!!i&&typeof i[a]==="boolean")return i[a];a=h.getValue(a);return a!=null&&typeof a==="boolean"?a:b};d=function(a,b){if(!!i&&typeof i[a]==="number")return i[a];a=h.getValue(a);return a!=null&&typeof a==="number"?a:b};e=function(a,b){if(!!i&&typeof i[a]==="string")return i[a];a=h.getValue(a);return a!=null&&typeof a==="string"?a:b};g.setGlobalOverrideConfig=a;g.getBool=b;g.getNumber=d;g.getString=e}),98);

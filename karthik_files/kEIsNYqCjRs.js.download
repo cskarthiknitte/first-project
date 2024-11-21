@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("VideoPlaybackQuality",[],(function(a,b,c,d,e,f){function a(a){if(typeof a.getVideoPlaybackQuality==="function")return a.getVideoPlaybackQuality().droppedVideoFrames;a=a.webkitDroppedFrameCount;return typeof a==="number"?a:0}function b(a){if(typeof a.getVideoPlaybackQuality==="function")return a.getVideoPlaybackQuality().totalVideoFrames;a=a.webkitDecodedFrameCount;return typeof a==="number"?a:0}f.getDroppedFrames=a;f.getTotalFrames=b}),66);
